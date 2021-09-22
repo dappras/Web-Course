@@ -1,0 +1,138 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 65px;
+    width: 100%;
+    color: white;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.bagian-kiri img{
+    float: left;
+    margin-right: 10px;
+    line-height: 65px;
+    width: 180px;
+}
+
+.bagian-kiri li{
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    line-height: 65px;
+}
+
+.bagian-kiri a{
+    text-decoration: none;
+    color: white;
+}
+
+.bagian-kanan a{
+    float: right;
+    line-height: 25px;
+    background-color: rgb(31, 122, 140);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-right: 15px;
+    padding-left: 15px;  
+    display: block;
+    border: 0px solid;
+    border-radius: 5px;
+    color: white;
+}
+
+.course{
+    padding-top: 80px;
+    background-color: #f7f7f7;
+    height: 1000px;
+}
+
+.pelajaran{
+    float: left;
+    width: 23%;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 400px;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+}
+
+.pelajaran:hover{
+    box-shadow: 7px 7px #303532;
+    position: relative;
+    cursor: pointer;
+    top: -7px;
+    left: -7px;
+}
+
+.special{
+    margin-right: 0px;
+}
+
+.icon img{
+    width: 200px;
+}
+
+.icon h4{
+    margin-top: 15px;
+}
+
+.penjelasan{
+    color: #b3aeb5;
+    font-size: 15px;
+    margin-top: 20px;
+    width: 80%;
+    display: inline-block;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    height: 120px;
+    padding: 40px;
+}
+  
+.list{
+    float: right;
+    padding: 30px 10px 20px 0px;
+}
+  
+.list li{
+    padding-bottom: 20px;
+}
+
+.list a{
+    text-decoration: none;
+    color: white;
+}
